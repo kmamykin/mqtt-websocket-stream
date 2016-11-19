@@ -1,8 +1,12 @@
 {
   "name": "mqtt-websocket-stream",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Binary WebSocket stream for MQTT.js",
-  "keywords": ["mqtt", "stream", "websocket"],
+  "keywords": [
+    "mqtt",
+    "stream",
+    "websocket"
+  ],
   "main": "lib/index.js",
   "homepage": "https://github.com/kmamykin/mqtt-websocket-stream",
   "repository": {
