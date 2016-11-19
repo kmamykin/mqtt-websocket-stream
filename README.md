@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/mqtt-websocket-stream.png?global=true)](https://nodei.co/npm/mqtt-websocket-stream/)
 
-This node module supports [MQTT.js](https://github.com/mqttjs/MQTT.js) compatible duplex stream over WebSocket.
+This node module implements [MQTT.js](https://github.com/mqttjs/MQTT.js) compatible duplex stream over WebSocket.
 It is an alternative implementation to [websocket-stream](https://github.com/maxogden/websocket-stream) 
 that is better suited to work with MQTT.js. This module is used on [aws-mqtt](https://github.com/kmamykin/aws-mqtt)
 to connect to AWS IoT MQTT broker.
