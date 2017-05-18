@@ -17,7 +17,7 @@ export const concatChunks = (chunks) => {
 }
 
 export const isBrowserSocket = (socket) => {
-  return socket.send.length === 1 // send is sync in browser and async with length 3 on server using 'ws' module
+  return socket.send.length != 3; // send is sync in browser and async with length 3 on server using 'ws' module
 }
 
 export const initWebSocket = (stream, socket) => {
